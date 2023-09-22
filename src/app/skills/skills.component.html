@@ -1,1 +1,17 @@
-<p>skills works!</p>
+<div class="main-container h-full w-full px-20 flex justify-center mt-[50px]">
+  <div class="content w-full flex flex-col items-center h-full">
+    <h1 class="text-[40px] font-normal text-[#01FFBB] pb-8">Skills and Expertise 🎓</h1>
+
+     <div class="skills w-full">
+        <div class="content w-full flex flex-col items-center">
+          <ng-container *ngFor="let item of data">
+            <div class="flex w-10/12 pb-6">
+              <p class="text-[#01FFBB] w-2/12 font-normal text-[20px] pb-10 text-justify">{{item.title}}:</p>
+              <p class="w-10/12 font-extralight text-[20px] pb-10 text-justify">{{item.content}}</p>
+            </div>
+          </ng-container>
+        </div>
+     </div>
+  </div>
+</div>
+
