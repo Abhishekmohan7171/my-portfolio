@@ -4,9 +4,15 @@
         <div>
           <p class="text-[30px] font-normal">Hello 👋, I'm</p>
           <h1 class="text-[100px] font-semibold">Abhishek Mohan<span class="pl-5 text-[#01FFBB]">A</span></h1>
+          <!-- <ngx-typed-js [strings]="['Abhishek Mohan A']" [showCursor]="false" [typeSpeed]="80">
+            <h1 class="typing text-[100px] font-semibold"></h1>
+          </ngx-typed-js> -->
         </div>
         <div class="pt-[30px]">
-          <p class="text-[40px] font-semibold text-[#01FFBB]">Software Engineer</p>
+          <!-- <p class="text-[40px] font-semibold text-[#01FFBB]">Software Engineer</p> -->
+          <ngx-typed-js [strings]="['Software Engineer','Frontend Developer','Passionate Rider','Hodophile']" [showCursor]="false" [loop]="true">
+            <h1 class="typing text-[40px] font-semibold text-[#01FFBB] h-[30px]"></h1>
+          </ngx-typed-js>
           <p class="font-light text-[24px] pt-[50px] pr-16">{{tagline}}</p>
         </div>
 

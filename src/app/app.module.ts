@@ -9,6 +9,7 @@ import { WorksComponent } from './works/works.component';
 import { SkillsComponent } from './skills/skills.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
+import {NgxTypedJsModule} from 'ngx-typed-js';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ContactComponent } from './contact/contact.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgxTypedJsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
