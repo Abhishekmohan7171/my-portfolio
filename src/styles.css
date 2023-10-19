@@ -5,7 +5,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url(./assets/fonts/satoshi/css/satoshi.css);
+
 *{
   /* font-family: Lexend; */
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Satoshi-Variable';
 }

@@ -1,6 +1,18 @@
 .main{
-  background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(20, 170, 148));
+  /* background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(20, 170, 148)); */
+  background: -webkit-linear-gradient(rgb(255, 255, 255), #9B9CA1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: Lexend;
 }
+
+/* section .animate{
+ transition: 1s;
+}
+
+.sec-1 .animate{
+  transform: translateX(-100%);
+}
+
+.sec-1.show-animate .animate{
+  transform: translateX(0);
+} */

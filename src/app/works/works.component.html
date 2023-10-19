@@ -1,13 +1,17 @@
-<div class="main-container h-full w-full px-20 flex justify-center mt-[50px]">
-  <div class="content w-full flex flex-col items-center h-full">
-    <h1 class="text-[40px] font-normal text-[#01FFBB] pb-8">My Works 💻</h1>
+<div class="main-container h-full w-full px-20 flex-col flex justify-center  mt-[25px] pt-[25px]" id="works">
+  <h1 class="main text-[40px] font-semibold pb-8 text-center">My Works</h1>
+  <div class="content w-full flex justify-around gap-[50px] h-full px-20">
 
-     <div class="work w-full">
-        <div class="bg-white w-[380px] h-[480px] rounded-[10px]">
-          <img src="" alt="">
-          <h1></h1>
-          <p></p>
-        </div>
-     </div>
+     <!-- <div class="work w-full "> -->
+        <ng-container *ngFor="let item of works">
+          <!-- <div class=""> -->
+            <div class="flex flex-col rounded-[10px] bg-[#161616] border-[#242424] border-[2px] w-[550px] px-6 py-6 justify-center items-center">
+              <img src="{{item.image}}" alt="" class="w-[170px] h-[170px]">
+              <h1 class=" text-[24px] text-center text-white  pt-2">{{item.title}}</h1>
+              <h1 class="text-[18px] text-center  pt-2 text-[#9B9CA1]">{{item.description}}</h1>
+            </div>
+          <!-- </div> -->
+        </ng-container>
+     <!-- </div> -->
   </div>
 </div>

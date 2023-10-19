@@ -1,8 +1,19 @@
 <div class="main-container h-full w-full text-white">
-  <app-home></app-home>
-  <app-about></app-about>
-  <app-works></app-works>
-  <app-skills></app-skills>
-  <app-contact></app-contact>
+  <section class="sec-1">
+    <app-home ></app-home>
+  </section>
+  <section class="sec-2">
+    <app-about class="animate"></app-about>
+  </section>
+  <section class="sec-3">
+    <app-works></app-works>
+  </section>
+  <section class="sec-4">
+    <app-skills></app-skills>
+  </section>
+  <section class="sec-5">
+    <app-contact></app-contact>
+  </section>
   <app-footer></app-footer>
+  <router-outlet></router-outlet>
 </div>

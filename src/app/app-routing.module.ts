@@ -5,13 +5,17 @@ import { HomeComponent } from './home/home.component';
 import { WorksComponent } from './works/works.component';
 import { SkillsComponent } from './skills/skills.component';
 import { AppShellComponent } from './app-shell/app-shell.component';
+import { AboutComponent } from './about/about.component';
 
 const routes: Routes = [
-  // {
-  //   path:'',
-  //   component:AppShellComponent
-  // }
-
+  {
+    path:'',
+    component:AppShellComponent
+  },
+  {
+    path:'about',
+    component:AboutComponent
+  },
   {
     path:'contact',
     component:ContactComponent
@@ -28,6 +32,7 @@ const routes: Routes = [
     path:'skills',
     component:SkillsComponent
   }
+
 ];
 
 @NgModule({

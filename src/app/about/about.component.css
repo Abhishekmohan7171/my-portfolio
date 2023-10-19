@@ -1,0 +1,18 @@
+section .animate{
+ transition: 1s;
+}
+
+.sec-2 .animate{
+  transform: translateX(-100%);
+}
+
+.sec-2.show-animate .animate{
+  transform: translateX(0);
+}
+
+.main{
+  /* background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(20, 170, 148)); */
+  background: -webkit-linear-gradient(rgb(255, 255, 255), #9B9CA1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
