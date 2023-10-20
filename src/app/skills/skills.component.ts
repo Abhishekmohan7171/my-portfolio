@@ -18,7 +18,7 @@ export class SkillsComponent implements OnInit{
     },
     {
       title:"Backend Development",
-      content:"Skilled in server-side development using Nest.js, with a focus on building scalable and efficient APIs.Prototyping and Design: Proficient in using Figma to create wireframes, prototypes, and mockups, facilitating seamless collaboration between design and development teams."
+      content:"Skilled in server-side development using Nest.js, with a focus on building scalable and efficient APIs."
     },
     {
       title:"Version Control",
