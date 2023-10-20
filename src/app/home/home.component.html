@@ -1,10 +1,10 @@
 <div class="main-container text-white w-full h-hull">
-  <app-navbar></app-navbar>
-  <div class="frame flex gap-4 justify-between w-full pt-[100px] px-20">
-    <div class="text h-[618.3px] flex flex-col justify-end pl-20 w-3/6">
+  <app-navbar class=""></app-navbar>
+  <div class="frame flex gap-4 justify-between w-full lg:pt-[100px] tablet:pt-[10px] lg:px-20 tablet:px-14">
+    <div class="text h-[618.3px] flex flex-col justify-end lg:pl-20 tablet:pl-[5px] w-3/6">
         <section class="sec-1">
           <p class="animate text-[30px] font-normal">Hello 👋, I'm</p>
-          <h1 class="animate main text-[90px] font-semibold">Abhishek Mohan<span class="pl-5 text-[#01FFBB]">A</span></h1>
+          <h1 class="animate main lg:text-[90px] tablet:text-[80px] font-semibold">Abhishek Mohan<span class="pl-5 text-[#01FFBB]">A</span></h1>
           <!-- <ngx-typed-js [strings]="['Abhishek Mohan A']" [showCursor]="false" [typeSpeed]="80">
             <h1 class="typing text-[100px] font-semibold"></h1>
           </ngx-typed-js> -->
@@ -12,19 +12,19 @@
         <div class="pt-[30px]">
           <!-- <p class="text-[40px] font-semibold text-[#01FFBB]">Software Engineer</p> -->
           <ngx-typed-js [strings]="['Software Engineer','Frontend Developer','Hodophile','Fitness Freak']" [showCursor]="false" [backSpeed]="25" [loop]="true">
-            <h1 class="typing text-[40px] font-semibold text-[#33C6AB] h-[30px]"></h1>
+            <h1 class="typing lg:text-[40px] tablet:text-[25px] font-semibold text-[#33C6AB] h-[30px]"></h1>
           </ngx-typed-js>
           <p class="font-extralight text-[18px] pt-[50px] pr-16 text-[#9B9CA1]">{{tagline}}</p>
         </div>
 
     </div>
 
-    <div class="memoji h-[618.3px] pt-12 w-2/6">
+    <div class="memoji h-[618.3px] tablet:flex-col tablet:justify-center tablet:flex pt-12 w-2/6">
       <img width="631px" height="618.3px" src="assets/images/memoji-final.png" alt="">
     </div>
   </div>
 
-  <div class="reach pl-40 mt-14 flex gap-6">
+  <div class="reach lg:pl-40 tablet:pl-14 mt-14 flex gap-6">
     <a class="px-6 py-1 bg-transparent border-[1px] hover:border-[#33C6AB] border-[#0F0F0F] rounded-[12px] text-[18px] font-semibold text-[#33C6AB] " href="#contact">Let's Connect ✈️</a>
     <a class="px-6 py-1 bg-[#33C6AB] hover:border-[1px] hover:text-[#33C6AB] hover:border-[#33C6AB] hover:bg-transparent rounded-[12px] text-[18px] font-semibold text-black " href="#works">Checkout My Works !</a>
   </div>
