@@ -1,8 +1,8 @@
 .main-container {
   /* background-image: linear-gradient(180deg, #FFF 0%, rgba(0, 0, 0, 0.94) 0.01%, rgba(0, 0, 0, 0.93) 26.56%, rgba(0, 0, 0, 0.90) 48.44%, rgba(0, 0, 0, 0.87) 66.67%, rgba(0, 0, 0, 0.65) 100%); */
-  background-color: #0F0F0F;
-  /* background:url("/assets/images/Dark BG.png"); */
-  background-position:cover;
+  /* background-color: #0F0F0F; */
+  background:url("/assets/images/doodle.png");
+  background-size:cover;
 }
 
 
