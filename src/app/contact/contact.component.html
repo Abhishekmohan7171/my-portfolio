@@ -1,5 +1,5 @@
 <div class="main-container h-full w-full flex justify-center mt-[100px] " id="contact">
-  <div class="content w-10/12 flex-row items-start h-full">
+  <div class="content w-10/12 flex flex-row justify-center items-center h-full">
     <div class="w-full flex flex-col justify-center items-center">
       <h1 class=" main text-[40px] font-semibold pb-8 text-center">Contact me</h1>
       <div>
@@ -8,7 +8,8 @@
       </div>
     <div>
 
-     <form [formGroup]="contactForm" (submit)="send()" class="contactForm w-full flex flex-col gap-6 justify-center pt-10">
+     <div class="flex justify-center w-full">
+      <form [formGroup]="contactForm" (submit)="send()" class="contactForm w-full flex flex-col gap-6 justify-center pt-10">
         <div class="flex items-center gap-2">
           <label for="" class="font-thin w-[80px]">Name *</label>
           <input type="text" class="rounded-[8px] w-[300px] h-[40px] text-black text-[15px] px-4" formControlName="name" >
@@ -32,6 +33,7 @@
           </div>
         </ng-container> -->
       </form>
+     </div>
   </div>
 </div>
 

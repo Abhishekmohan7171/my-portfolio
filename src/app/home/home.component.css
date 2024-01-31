@@ -36,6 +36,7 @@
   }
 }
 
+/* tablet */
 @media only screen and (max-width: 900px) {
   .frame{
     display: flex;
@@ -70,4 +71,41 @@
   .memoji{
     display: none;
   }
+}
+
+/* mobile  */
+@media only screen and (max-width: 440px) {
+  .frame{
+    width: 100%;
+    padding-left: 15px;
+    padding-right:15px;
+  }
+
+
+  .hi{
+    font-size: 20px;
+  }
+
+  .main-header{
+    font-size: 55px;
+  }
+
+  .typing{
+    font-size:25px;
+    padding: 50px;
+  }
+
+  .tagline{
+    padding-right: 10px;
+    padding-left:10px;
+    padding-top:70px;
+    padding-bottom: 70px;
+    font-size:18px;
+    text-align: center;
+  }
+
+  .reach{
+    flex-direction: column;
+  }
+
 }
