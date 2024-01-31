@@ -17,3 +17,22 @@ section .animate{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+
+@media only screen and (max-width: 900px) {
+  .content{
+    text-align: center;
+  }
+
+  .skills{
+    justify-content:center ;
+  }
+
+  .title{
+    text-align: center;
+  }
+
+  .desc{
+    text-align: center;
+  }
+}

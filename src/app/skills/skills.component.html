@@ -1,13 +1,13 @@
-<section class="sec-2 main-container h-full w-full lg:px-20 tablet:px-14 flex justify-center mt-[25px] pt-[25px]" id="skills">
-  <div class=" content w-full flex flex-col items-center h-full">
+<section class="sec-2 main-container h-full w-full flex justify-center mt-[25px] pt-[25px]" id="skills">
+  <div class=" content w-10/12 flex flex-col items-center h-full">
     <h1 class=" main text-[40px] font-semibold pb-8">Skills and Expertise </h1>
 
-     <div class="skills w-full lg:px-20">
-        <div class="content w-full flex flex-col items-center">
+     <div class="skills w-full flex ">
+        <div class="content w-9/12 flex flex-col items-center">
           <ng-container *ngFor="let item of data">
             <div class=" w-full pb-5">
-              <p class=" text-white font-normal text-[24px] pb-2 text-justify">{{item.title}}:</p>
-              <p class=" font-thin text-[18px] pb-10 text-justify text-[#9B9CA1]">{{item.content}}</p>
+              <p class=" text-white font-normal text-[24px] pb-2 text-justify title">{{item.title}}:</p>
+              <p class=" font-thin text-[18px] pb-10 text-justify text-[#9B9CA1] desc">{{item.content}}</p>
             </div>
           </ng-container>
         </div>
